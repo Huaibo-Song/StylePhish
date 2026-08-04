@@ -48,7 +48,7 @@ The input `--folder` must contain one sub-directory per site:
 
 
 ```
-test_site_x/
+test_site_xxx/
 ├── info.txt    # the URL (required)
 ├── shot.png    # the screenshot (required)
 └── html.txt    # the HTML source (optional)
