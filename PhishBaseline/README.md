@@ -17,7 +17,7 @@ webpages. In 30th USENIX Security Symposium, 2021.
 </li>
 
 <li>
-<b>Phishintention:</b>
+<b>PhishIntention:</b>
 Ruofan Liu, Yun Lin, Xianglin Yang, Siang Hwee Ng, Dinil Mon
 Divakaran, and Jin Song Dong. Inferring phishing intention via webpage
 appearance and dynamics: A deep vision based approach. In 31st
