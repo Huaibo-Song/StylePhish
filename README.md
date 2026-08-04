@@ -10,7 +10,6 @@ The repository contains code and datasets required to reproduce the experiments 
 2. [Setup](#setup)
 3. [Input](#input)
 4. [Contributing](#contributing)
-5. [Citation](#citation) 
 
 
 ## Overview
