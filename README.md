@@ -8,17 +8,53 @@ The repository contains code and datasets required to reproduce the experiments 
 ## Table of Contents
 1. [Overview](#overview)
 2. [Setup](#setup)
-   - [Downloads](#downloads)
-   - [Environment ](#environment)
-3. [Input Directory Structure](#input-directory-structure)
+3. [Input](#input)
 4. [Contributing](#contributing)
 
 
 ## Overview
 There are three main components in this projects:
 
-1. PhishingBaseline
+1.  **PhishBaseline** - Contains the code and instructions required to reproduce the baseline methods reported in our paper (e.g., we use Serper API as a replacement for Google Search API in PhishLLM since Google Search API is no longer available for new users).
+
+2.  **Dataset** - Contains the datasets used in our experiments and the scripts for data preprocessing.
+
+3.  **Source Code** - Contains the implementation of our model, including training and evaluation scripts.
+
+4.  **User Study** - Contains all user study-related materials.
 
 
-## 👪 Contributing
+## Setup
+The virtual environment file is located as follows：
+1. StylePhish Environment - `StylePhish/Source Code/stylephish_environment.yml`
+
+
+### Environment & Setup Activation
+```bash
+conda env create --name stylephish --file=stylephish_environment.yml
+```
+
+### Activating & Deactivating the Environments
+
+The environments can be activated and deactivated using the following commands:
+
+```
+conda activate stylephish
+conda deactivate
+```
+
+
+## Input 
+
+The input `--folder` must contain one sub-directory per site:
+
+
+```
+test_site_x/
+├── info.txt    # the URL (required)
+├── shot.png    # the screenshot (required)
+└── html.txt    # the HTML source (optional)
+```
+
+## Contributing 👪
 For StylePhish, pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. For any detailed clarifications/issues, please email to songhuaibo@icloud.com.
