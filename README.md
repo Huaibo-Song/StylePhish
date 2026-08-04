@@ -2,6 +2,7 @@
 # StylePhish
 
 This is the official implementation of "StylePhish:A Set Transformer Based Approach for Phishing Detection via Brand Website Visual Styles"
+
 The repository contains code and datasets required to reproduce the experiments and results presented in our paper.
 
 ## Table of Contents
@@ -13,6 +14,10 @@ The repository contains code and datasets required to reproduce the experiments 
 4. [Contributing](#contributing)
 
 
+## Overview
+There are three main components in this projects:
+
+1. PhishingBaseline
 
 
 ## 👪 Contributing
