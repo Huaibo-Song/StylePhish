@@ -10,6 +10,7 @@ The repository contains code and datasets required to reproduce the experiments 
 2. [Setup](#setup)
 3. [Input](#input)
 4. [Contributing](#contributing)
+5. [Citation](#citation) 
 
 
 ## Overview
@@ -57,3 +58,6 @@ test_site_xxx/
 ## Contributing 
 👪
 For StylePhish, pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. For any detailed clarifications/issues, please email to songhuaibo@icloud.com.
+
+# Citation
+If you find this repo useful for your research, please use the following.
