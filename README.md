@@ -29,18 +29,16 @@ The virtual environment file is located as follows：
 1. StylePhish Environment - `StylePhish/Source Code/stylephish_environment.yml`
 
 
-### Environment & Setup Activation
+### Environment & Activation
 ```bash
 conda env create --name stylephish --file=stylephish_environment.yml
 ```
 
-### Activating & Deactivating the Environments
 
-The environments can be activated and deactivated using the following commands:
+The environments can be activated using the following commands:
 
 ```
 conda activate stylephish
-conda deactivate
 ```
 
 
@@ -56,5 +54,6 @@ test_site_x/
 └── html.txt    # the HTML source (optional)
 ```
 
-## Contributing 👪
+## Contributing 
+👪
 For StylePhish, pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. For any detailed clarifications/issues, please email to songhuaibo@icloud.com.
