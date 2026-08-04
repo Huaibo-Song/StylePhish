@@ -2,14 +2,10 @@ import numpy as np
 from matplotlib.pyplot import imread
 from skimage.transform import rescale, resize
 import os
-from tqdm import tqdm
 import tensorflow as tf
 
+from tqdm import tqdm
 from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import Flatten
-from keras.models import Sequential
-from keras.layers import Dense
 from keras.layers import Flatten, Subtract, Reshape
 from keras.preprocessing import image
 from keras.models import Model
