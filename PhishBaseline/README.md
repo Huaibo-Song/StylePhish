@@ -1,6 +1,6 @@
 # Phishing baseline
   
-Implementations of phishing detection and identification baselines
+Implementations of phishing detection and identification baselines 
   
 - VisualPhishnet:Abdelnabi, S., Krombholz, K., & Fritz, M. (2020, October). VisualPhishNet: 
                    Zero-Day Phishing Website Detection by Visual Similarity. In Proceedings of the 2020 ACM 
