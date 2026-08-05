@@ -1,13 +1,13 @@
 
 # Dataset Description
 
-We evaluate model performance from multiple perspectives, including false positive (FP) rate, benchmark performance, and robustness against attacks.
+We evaluate model performance from multiple perspectives, including false positive (FP) rate on benign webpages, phishing detection performance on two datasets, and robustness against attacks.
 
 ## False Positive Dataset
 We use the benign test dataset from VisualPhishNet paper as the FP evaluation dataset.
 
 ## Benchmark Dataset
-We conduct experiments on two benchmark datasets:
+We conduct experiments on two datasets:
 
 1. Phishpedia Dataset - The publicly available Phishpedia dataset with duplicate samples removed.
 2. StylePhish Dataset - We crawl real-world phishing webpages from OpenPhish and perform deduplication
