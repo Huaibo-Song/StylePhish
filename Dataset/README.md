@@ -1,7 +1,7 @@
 
 # Dataset Description
 
-This project evaluates model performance from multiple perspectives, including false positive (FP) evaluation, benchmark performance, and robustness against adversarial attacks.
+We evaluate model performance from multiple perspectives, including false positive (FP) rate, benchmark performance, and robustness against attacks.
 
 ## False Positive Dataset
 We use the benign test dataset from VisualPhishNet paper as the FP evaluation dataset.
