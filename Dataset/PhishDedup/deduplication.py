@@ -7,7 +7,6 @@ Globally deduplicate based on the SHA-256 hash of shot.png:
 - For files with exactly the same hash, keep the first one (sorted by folder name)
   and move the remaining entire subfolders to ./phishpedia_duplicate/<original_name>/
 - Create ./phishpedia_duplicate/ if it does not exist; overwrite if the same name already exists
-- Do not read info.txt and do not perform any URL-related processing
 """
 
 import sys
